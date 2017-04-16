@@ -65,6 +65,12 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS Developer, travel enthusiast, dog mom" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GYo-25-GuY">
+                                        <rect key="frame" x="125" y="139.5" width="242" height="16.5"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -76,6 +82,9 @@
                                     <constraint firstItem="NNQ-kj-22I" firstAttribute="centerY" secondItem="NCt-th-TYQ" secondAttribute="centerY" id="JTH-2B-piY"/>
                                     <constraint firstAttribute="bottom" secondItem="FjC-5E-pBO" secondAttribute="bottom" constant="10" id="Km2-Po-xFM"/>
                                     <constraint firstAttribute="bottom" secondItem="NCt-th-TYQ" secondAttribute="bottom" constant="13" id="dcX-f7-BG4"/>
+                                    <constraint firstAttribute="trailing" secondItem="GYo-25-GuY" secondAttribute="trailing" constant="8" id="eMb-8z-1qk"/>
+                                    <constraint firstItem="GYo-25-GuY" firstAttribute="leading" secondItem="FjC-5E-pBO" secondAttribute="trailing" constant="8" id="hKF-sI-daO"/>
+                                    <constraint firstAttribute="bottom" secondItem="GYo-25-GuY" secondAttribute="bottom" constant="29" id="niU-xU-5R4"/>
                                     <constraint firstAttribute="bottom" secondItem="Wnl-db-yLE" secondAttribute="bottom" id="oyw-DC-eSw"/>
                                     <constraint firstItem="Wnl-db-yLE" firstAttribute="leading" secondItem="mye-HQ-wIT" secondAttribute="leading" id="qXl-Rh-VIp"/>
                                     <constraint firstAttribute="trailing" secondItem="Wnl-db-yLE" secondAttribute="trailing" id="sDS-kh-BlI"/>
